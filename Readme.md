@@ -75,19 +75,20 @@ A lightweight production-ready Python tool that converts \*\*JPEG images and MP4
 
 \- For image
 
-python media_to_dicom.py \
+py media_to_dicom.py \
   --image input.jpg \
   --output output.dcm \
   --patient_name "John Doe" \
   --patient_id "12345"
 
 \- For Video
-python media_to_dicom.py \
+
+py media_to_dicom.py \
   --video input.mp4 \
   --output output.dcm \
   --patient_name "John Doe" \
   --patient_id "12345"
   --max_frames 60
 
- have the max frame as 60 as most videos above this will caus ean import error 
+-- Have the max frame as 60 as most videos above this will caus ean import error 
 
