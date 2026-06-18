@@ -1,0 +1,10 @@
+numpy>=1.24.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+pydicom>=2.4.0
+python-dateutil>=2.8.2
+
+# optional
+fastapi>=0.110.0
+uvicorn>=0.27.0
+watchdog>=3.0.0
